@@ -43,7 +43,8 @@ def preprocesar_datos(df):
     return df_procesado
 
 # Cargar tu archivo CSV o el dataframe base antes de procesarlo
-df = pd.read_csv("C:/Users/andre/OneDrive/Escritorio/DATAVIZ/Segundo Corte, Geo, Desplegable/rentrgable2/Database.csv")  # Ajusta el nombre del archivo
+df = pd.read_csv('Database.csv')
+  # Ajusta el nombre del archivo
 df = preprocesar_datos(df)
 
 # Procesamos el dataframe (asumiendo que df ya está definido)
