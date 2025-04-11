@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: dashboard-gncv
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app.server
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
