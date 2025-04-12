@@ -1,10 +1,6 @@
 services:
   - type: web
-    name: dashboard-gncv
+    name: gncv-dashboard
     env: python
-    buildCommand: ""
-    startCommand: gunicorn app:app.server
-    plan: free
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.10
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:server"
