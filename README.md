@@ -35,7 +35,7 @@ El dashboard incluye:
 
 ##Despliegue
 
-En el codigo se usó la instrucción server = app.server, lo cual nos permite su despliegue en plataformas en la nube como Render, en nuestro caso.
+*   En el codigo se usó la instrucción server = app.server, lo cual nos permite su despliegue en plataformas en la nube como Render, en nuestro caso.
 
 ### Conclusiones
 
