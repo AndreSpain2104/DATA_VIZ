@@ -33,7 +33,7 @@ El dashboard incluye:
 *   Filtro por departamento.
 *   Botón para restablecer los filtros.
 
-##Despliegue
+### Despliegue
 
 *   En el codigo se usó la instrucción server = app.server, lo cual nos permite su despliegue en plataformas en la nube como Render, en nuestro caso.
 
