@@ -26,10 +26,18 @@ El dashboard incluye:
 *   Gráfico de tendencia temporal con opción de promedio móvil.
 *   Gráfico de barras con los 10 municipios con más conversiones.
 *   Mapa interactivo con la distribución geográfica de conversiones.
-*   Gráfico circular por tipo de vehículo (si la información está disponible en la base de datos).
 
 ### Filtros interactivos:
 
 *   Filtro por año.
 *   Filtro por departamento.
 *   Botón para restablecer los filtros.
+
+##Despliegue
+
+En el codigo se usó la instrucción server = app.server, lo cual nos permite su despliegue en plataformas en la nube como Render, en nuestro caso.
+
+### Conclusiones
+
+Este proyecto constituye un ejercicio de aplicación de herramientas de visualización de datos interactivas en Python.
+El dashboard desarrollado permite explorar, analizar y comunicar patrones relevantes en la adopción de GNCV en Colombia, integrando métricas clave y representaciones visuales que facilitan la interpretación de los datos.
